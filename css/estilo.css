@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:  rgb(151, 117, 183);
+}
+
+h2{
+    position: absolute;
+    top: 40%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    
+}
+
+#container-loader { 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.loader {
+    width: 80px;
+    height: 80px;
+    border: 12px solid rgb(228, 228, 232);
+    border-top-color: blue;
+    border-radius: 360px;
+    animation: loader 1s infinite linear;
+}
+
+@keyframes loader {
+    to{
+        transform: rotate(360deg);
+    }
+    
+}
